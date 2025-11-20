@@ -4,9 +4,9 @@
     "label": "Telecommunications Engineer | Machine Learning Researcher",
     "image": "prof_pic.jpg",
     "email": "mario.ricoibanez@epfl.ch",
-    "phone": "",
-    "url": "https://mariorico.github.io/",
-    "summary": "Telecommunications Engineer pursuing Master's in Computer Science at EPFL, with a Bachelor's degree in Telecommunications Engineering from UPV and enrolled in a long-term Mathematics program at UNED. Specialized in Deep Reinforcement Learning for UAV networks and telecommunications optimization. Research focus on applying advanced AI techniques to solve complex problems in mobile networks, with expertise in scalable systems and distributed computing.",
+    "phone": "+41 076 688 07 25",
+    "url": "https://MarioRicoIbanez.github.io/al-folio/",
+    "summary": "Telecommunications Engineer pursuing a Master's in Computer Science at EPFL, with a Bachelor's degree in Telecommunications Engineering from UPV. Specialized in Deep Reinforcement Learning for UAV networks and telecommunications optimization, as well as Generative AI and Large Language Models.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -17,33 +17,30 @@
     "profiles": [
       {
         "network": "LinkedIn",
-        "username": "mario-rico-ibáñez-6b5888225",
-        "url": "https://www.linkedin.com/in/mario-rico-ibáñez-6b5888225/"
+        "username": "mario-rico-ibanez",
+        "url": "https://www.linkedin.com/in/mario-rico-ibanez/"
       },
       {
         "network": "GitHub",
         "username": "MarioRicoIbanez",
         "url": "https://github.com/MarioRicoIbanez"
-      },
-      {
-        "network": "Google Scholar",
-        "username": "U-WrIfQAAAAJ",
-        "url": "https://scholar.google.com/citations?user=U-WrIfQAAAAJ&hl=es"
       }
     ]
   },
   "work": [
     {
-      "name": "Computer Vision & Behaviour Analysis Lab",
-      "position": "Machine Learning Developer",
+      "name": "Xcert AI",
+      "position": "Machine Learning Engineer",
       "url": "",
-      "startDate": "2023-03-01",
-      "endDate": "2024-07-01",
-      "summary": "Developed SOTA text models for Multilabel Emotion Recognition within a psychology context.",
+      "startDate": "2025-07-01",
+      "endDate": "Present",
+      "summary": "Developing Generative AI solutions for aerospace certification and compliance processes.",
       "highlights": [
-        "Developed SOTA text models for Multilabel Emotion Recognition within a psychology context",
-        "Conducted research on Deep Learning for Emotion Recognition, comparing Encoder-only Transformers (like BERT and RoBERTa) with Decoder-only Transformers (like Llama-2, Mistral, Qwen)",
-        "Explored the explainability of Large Language Models in the context of Emotion Recognition"
+        "Developing Generative AI solutions for aerospace certification and compliance processes",
+        "Building modules to process complex PDF documents and high-precision aerial and satellite images for aerodrome certification",
+        "Implementing LLM-based systems to analyze and verify compliance of runways, taxiways, and emergency infrastructure",
+        "Applying clustering analysis, image processing, and MCP integration for automated compliance verification",
+        "Collaborating with multidisciplinary aerospace system engineering and development teams at a CERN/ESA-backed startup"
       ]
     },
     {
@@ -51,17 +48,42 @@
       "position": "Machine Learning Developer",
       "url": "",
       "startDate": "2024-01-01",
-      "endDate": "present",
-      "summary": "Developing 5G/6G multi-carrier, massive MIMO, GPU-based system-level wireless communication simulator.",
+      "endDate": "2025-06-01",
+      "summary": "Developed 5G/6G wireless communication simulators and optimized network strategies using Deep Reinforcement Learning.",
       "highlights": [
-        "Developing 5G/6G multi-carrier, massive MIMO, GPU-based system-level wireless communication simulator (PyTorch)",
-        "Utilizing Deep Reinforcement Learning strategies to optimize the placement of Base Stations",
-        "Investigating the applicability of Deep Reinforcement Learning techniques in telecommunications and endeavoring to implement algorithms across varied scenarios, including singular 4G layer, multi-layer environments, and several distributions of users",
+        "Developed 5G/6G multi-carrier, massive MIMO, GPU-based system-level wireless communication simulator using PyTorch",
+        "Utilized Deep Reinforcement Learning strategies to optimize the placement of UAV Base Stations",
+        "Investigated the applicability of Deep Reinforcement Learning techniques in telecommunications across varied scenarios, including singular 4G layer, multi-layer environments, and several distributions of users",
         "Supervised by Prof. Valery Naranjo Ornedo and Dr. David López Pérez"
+      ]
+    },
+    {
+      "name": "Computer Vision & Behaviour Analysis Lab",
+      "position": "Machine Learning Developer",
+      "url": "",
+      "startDate": "2023-03-01",
+      "endDate": "2024-07-01",
+      "summary": "Developed SOTA text models for Emotion Recognition and researched LLM explainability.",
+      "highlights": [
+        "Developed SOTA text models for Multilabel Emotion Recognition within a psychology context",
+        "Conducted research on Deep Learning for Emotion Recognition, comparing Encoder-only Transformers (BERT, RoBERTa) with Decoder-only Transformers (Llama-2, Mistral, Qwen)",
+        "Explored the explainability of Large Language Models in the context of Emotion Recognition"
       ]
     }
   ],
-  "volunteer": [],
+  "volunteer": [
+    {
+      "organization": "IAESTE",
+      "position": "Faculty Delegate",
+      "url": "",
+      "startDate": "",
+      "endDate": "",
+      "summary": "Served a full academic year as a delegate for the IAESTE organization, focusing on securing international job placements for students.",
+      "highlights": [
+        "Actively engaged with both students and employers, facilitating successful job matches and supporting students throughout their application processes"
+      ]
+    }
+  ],
   "education": [
     {
       "institution": "École Polytechnique Fédérale de Lausanne (EPFL)",
@@ -70,34 +92,18 @@
       "area": "Computer Science",
       "studyType": "Master",
       "startDate": "2024-09-01",
-      "endDate": "present",
-      "score": "",
+      "endDate": "Present",
+      "score": "5.44/6",
       "courses": [
         "Machine Learning",
+        "Foundation Models and Generative AI",
         "Modern Natural Language Processing",
         "Reinforcement Learning",
         "Mobile Networks",
         "Intelligent Agents",
         "Algorithms",
-        "Distributed Algorithms"
-      ]
-    },
-    {
-      "institution": "Universitat Politècnica de València",
-      "location": "Valencia, Spain",
-      "url": "https://www.upv.es/",
-      "area": "Artificial Intelligence",
-      "studyType": "Diploma (SAMSUNG INNOVATION)",
-      "startDate": "2022-09-01",
-      "endDate": "2022-12-01",
-      "score": "",
-      "courses": [
-        "Mathematics for Data Science",
-        "Probability and Statistics",
-        "Python for Data Science",
-        "Machine Learning",
-        "Deep Learning",
-        "Natural Language Processing"
+        "Distributed Algorithms",
+        "Advanced Networks"
       ]
     },
     {
@@ -108,251 +114,187 @@
       "studyType": "Bachelor",
       "startDate": "2020-09-01",
       "endDate": "2024-07-01",
-      "score": "",
+      "score": "9/10",
       "courses": [
-        "Telecommunication Systems",
-        "Mobile Networks",
-        "Signal Processing",
-        "Network Protocols",
-        "RF Engineering"
+        "Specialization: Telecommunication Systems",
+        "Algebra",
+        "Calculus",
+        "Probability and Random Signals",
+        "Digital Signal Processing",
+        "Information Theory",
+        "Mobile and Wireless Communications",
+        "Microwaves"
       ]
     },
     {
-      "institution": "Universidad Nacional de Educación a Distancia",
-      "location": "Spain",
-      "url": "https://www.uned.es/",
-      "area": "Mathematics",
-      "studyType": "Long-term program",
-      "startDate": "2023-09-01",
-      "endDate": "2030-07-01",
-      "score": "Currently enrolled in a long-term program",
+      "institution": "Universitat Politècnica de València",
+      "location": "Valencia, Spain",
+      "url": "https://www.upv.es/",
+      "area": "Artificial Intelligence",
+      "studyType": "Diploma (SAMSUNG INNOVATION)",
+      "startDate": "2022-09-01",
+      "endDate": "2022-12-01",
+      "score": "Equivalent to 35 ECTS",
       "courses": [
-        "Discrete Maths",
-        "Formal Languages and Basic Geometry"
+        "Maths for Data Science",
+        "Probability and Statistics",
+        "Python for Data Science",
+        "Machine Learning",
+        "Deep Learning",
+        "Natural Language Processing"
       ]
     }
   ],
-  "awards": [],
-  "certificates": [
+  "awards": [
     {
-      "name": "Deep Reinforcement Learning for Telecommunications",
-      "date": "2023-01-01",
-      "issuer": "Academic Research",
-      "url": "",
-      "icon": "fa-solid fa-brain"
+      "title": "Honors at Upper Secondary School",
+      "date": "",
+      "awarder": "Secondary School",
+      "summary": "Achieved Honors in the last year"
     },
     {
-      "name": "Large Language Models & Transformers",
-      "date": "2024-01-01",
-      "issuer": "Academic Research",
-      "url": "",
-      "icon": "fa-solid fa-language"
+      "title": "Top 3 Student",
+      "date": "2024",
+      "awarder": "UPV",
+      "summary": "Top 3 out of 200+ students in Telecommunications Engineering"
     },
     {
-      "name": "UAV Networks & Mobile Communications",
-      "date": "2024-01-01",
-      "issuer": "Academic Research",
-      "url": "",
-      "icon": "fa-solid fa-satellite-dish"
+      "title": "High Performance Group",
+      "date": "2020-2024",
+      "awarder": "UPV",
+      "summary": "Participant in the High Performance Group with English teaching"
     }
   ],
+  "certificates": [],
   "publications": [
-    {
-      "name": "Query-free Attacks on Image-to-image Models are Hard to Avoid",
-      "publisher": "International Conference on Machine Learning (ICML)",
-      "releaseDate": "2025-01-01",
-      "url": "",
-      "summary": "Comprehensive evaluation of query-free adversarial attacks on diffusion models, demonstrating universal vulnerabilities across encoder architectures and failure of current defense mechanisms.",
-      "authors": "Rico Ibáñez, Mario; Abad Rocamora, Elias; Cevher, Volkan"
-    },
-    {
-      "name": "Optimizing Aerial Base Station Positioning Using Deep Reinforcement Learning in UAV Networks",
-      "publisher": "International Conference on Communications",
-      "releaseDate": "2024-01-01",
-      "url": "",
-      "summary": "Investigation of Deep Reinforcement Learning techniques for optimizing UAV-based base station positioning in mobile networks for emergency communications.",
-      "authors": "Rico Ibáñez, Mario; Akhtarshenas, Azim; López-Pérez, David; Geraci, Giovanni"
-    },
     {
       "name": "Mejorando el Análisis de Emociones en texto mediante Llama 2",
       "publisher": "XLI Congreso Anual de la Sociedad Española de Ingeniería Biomédica",
       "releaseDate": "2023-01-01",
       "url": "https://repositorio.upct.es/handle/10317/13756",
-      "summary": "Research on improving emotion analysis in text using Llama 2 model, contributing to advances in natural language understanding and sentiment analysis.",
-      "authors": "Rico Ibáñez, Mario; del Amor, Rocío; Naranjo, Valery"
+      "summary": "Rico Ibáñez, Mario; del Amor, Rocío; Naranjo, Valery. In: XLI Congreso Anual de la Sociedad Española de Ingeniería Biomédica. Valencia: Universitat Politècnica de València, 2023. Pp. 670-673. ISBN: 978-84-17853-76-1"
     },
     {
-      "name": "Deep Reinforcement Learning for UAV Base Station Dynamic Positioning",
-      "publisher": "Bachelor Thesis - Universitat Politècnica de València",
-      "releaseDate": "2023-01-01",
-      "url": "",
-      "summary": "Bachelor thesis focusing on applying Deep Reinforcement Learning strategies to optimize the placement and movement of UAV-based base stations in telecommunications networks.",
-      "authors": "Rico Ibáñez, Mario"
+      "name": "Optimizing Aerial Base Station Positioning Using Deep Reinforcement Learning in UAV Networks",
+      "publisher": "International Conference on Communications",
+      "releaseDate": "2024-01-01",
+      "url": "https://arxiv.org/abs/2504.03961",
+      "summary": "Rico Ibáñez, Mario; Akhtarshenas, Azim; López-Pérez, David; Geraci, Giovanni."
     }
   ],
   "skills": [
     {
-      "name": "Telecommunications & Networks",
+      "name": "Programming",
       "level": "Expert",
-      "icon": "fa-solid fa-satellite-dish",
-      "keywords": [
-        "UAV Networks",
-        "Mobile Communications",
-        "4G/5G Systems",
-        "Base Station Optimization",
-        "RF Engineering",
-        "Network Protocols"
-      ]
-    },
-    {
-      "name": "Machine Learning & AI",
-      "level": "Expert",
-      "icon": "fa-solid fa-robot",
-      "keywords": [
-        "Deep Reinforcement Learning",
-        "Natural Language Processing",
-        "Computer Vision",
-        "Large Language Models",
-        "Transformers"
-      ]
-    },
-    {
-      "name": "Programming & Tools",
-      "level": "Expert",
-      "icon": "fa-solid fa-code",
       "keywords": [
         "Python",
         "PyTorch",
         "TensorFlow",
         "Keras",
-        "Git",
-        "Docker",
         "Bash",
-        "LaTeX"
+        "Assembly",
+        "SystemVerilog",
+        "Matlab",
+        "Java",
+        "Git",
+        "LaTeX",
+        "Docker"
       ]
     },
     {
-      "name": "Research & Analytics",
-      "level": "Advanced",
-      "icon": "fa-solid fa-chart-line",
+      "name": "Languages",
+      "level": "",
       "keywords": [
-        "Statistical Analysis",
-        "Data Visualization",
-        "Distributed Computing",
-        "System Optimization",
-        "Performance Analysis"
+        "Spanish (Native)",
+        "English (Fluent)",
+        "French (B1)"
       ]
     }
   ],
   "languages": [
     {
       "language": "Spanish",
-      "fluency": "Native speaker",
+      "fluency": "Native",
       "icon": ""
     },
     {
       "language": "English",
       "fluency": "Fluent",
       "icon": ""
+    },
+    {
+      "language": "French",
+      "fluency": "B1",
+      "icon": ""
     }
   ],
   "interests": [
     {
-      "name": "Technology & Research",
-      "icon": "fa-solid fa-microchip",
+      "name": "Sports",
       "keywords": [
-        "Telecommunications Innovation",
-        "AI in Mobile Networks",
-        "UAV Technology",
-        "Distributed Systems"
-      ]
-    },
-    {
-      "name": "Sports & Fitness",
-      "icon": "fa-solid fa-dumbbell",
-      "keywords": [
-        "Gym Training",
+        "Gym",
         "Running",
         "Tennis",
-        "Boxing",
-        "Mountain Hiking"
+        "Boxing"
       ]
     },
     {
-      "name": "Mental Challenges",
-      "icon": "fa-solid fa-cube",
+      "name": "Other",
       "keywords": [
-        "Rubik's Cube",
-        "Problem Solving",
-        "Algorithmic Thinking"
-      ]
-    },
-    {
-      "name": "Teaching & Mentoring",
-      "icon": "fa-solid fa-chalkboard-teacher",
-      "keywords": [
-        "Knowledge Sharing",
-        "Academic Mentoring",
-        "Technical Education"
+        "Technological Advancements",
+        "Nature",
+        "Rubik Cube",
+        "Teaching"
       ]
     }
   ],
-  "references": [
-    {
-      "name": "Available upon request",
-      "icon": "fa-solid fa-envelope",
-      "reference": "Professional and academic references available upon request."
-    }
-  ],
+  "references": [],
   "projects": [
     {
       "name": "Adversarial Attacks on Image-to-Image Generative Models",
-      "summary": "Query-free adversarial attack framework targeting state-of-the-art diffusion models including InstructPix2Pix, Kandinsky, and Stable Diffusion.",
+      "summary": "Investigated the robustness of Image-to-Image generative models against adversarial attacks.",
       "highlights": [
-        "Developed query-free attacks using Auto-PGD optimization without model access",
-        "Demonstrated universal vulnerability across VAE and CLIP encoder architectures",
-        "Proved ineffectiveness of current defense mechanisms including RobustCLIP",
-        "Submitted to ICML 2025 - first comprehensive study of encoder-space attacks on diffusion models"
+        "Investigated the robustness of Image-to-Image generative models against adversarial attacks, such as Automatic Projected Gradient Descent, analyzing vulnerabilities and defenses (e.g., RobustCLIP)",
+        "Developed adversarial strategies targeting models based on Diffusion Models, specifically assessing the stability of embeddings",
+        "Conducted extensive experiments evaluating the performance impacts of adversarial perturbations across datasets",
+        "Supervised by Prof. Volkan Cevher and Elias Abad Rocamora"
       ],
-      "startDate": "2024-09-01",
-      "endDate": "2025-01-01",
-      "url": ""
+      "url": "https://github.com/MarioRicoIbanez/AdversarialML-I2I"
     },
     {
-      "name": "Evolution Strategies for Deep RL Pretraining",
-      "summary": "Explored Evolution Strategies as both standalone reinforcement learning method and pretraining step for gradient-based algorithms like DQN and PPO across multiple environments.",
+      "name": "Evolution Strategies for Deep Reinforcement Learning Pretraining",
+      "summary": "Investigated Evolution Strategies as standalone RL methods and pretraining mechanisms for gradient-based algorithms.",
       "highlights": [
-        "Implemented ES-pretrained agents for Flappy Bird, Breakout, and MuJoCo environments",
-        "Analyzed performance trade-offs between ES and traditional DRL methods",
-        "Published comprehensive comparative analysis with open-source implementation"
+        "Investigated Evolution Strategies as standalone RL methods and pretraining mechanisms for gradient-based algorithms (DQN, PPO)",
+        "Conducted extensive experiments across Flappy Bird, Breakout, and MuJoCo environments",
+        "Analyzed trade-offs between gradient-free and gradient-based methods in terms of convergence speed and performance",
+        "Demonstrated that ES provides effective early exploration but faces scalability limitations",
+        "Collaborative project with Swiss Data Science Center"
       ],
-      "startDate": "2024-01-01",
-      "endDate": "2024-06-01",
-      "url": "https://github.com/talphaidze/Evolution-Strategies-for-Deep-RL-Pretraining"
+      "url": "https://github.com/MarioRicoIbanez/ES_DRL"
     },
     {
-      "name": "UAV Base Station Optimization using Deep RL",
-      "summary": "Deep Reinforcement Learning system for optimizing aerial base station positioning in emergency communication networks.",
+      "name": "Chatsplaining: Intelligent STEM Tutoring System",
+      "summary": "Developed an AI tutor by fine-tuning Qwen3-0.6B-Base language model for EPFL-related STEM questions.",
       "highlights": [
-        "Developed DRL algorithms for 3D UAV positioning optimization",
-        "Implemented multi-layer environment simulations for realistic testing",
-        "Achieved significant improvements in network coverage and user satisfaction"
+        "Developed an AI tutor by fine-tuning Qwen3-0.6B-Base language model for EPFL-related STEM questions",
+        "Implemented four model variants: supervised fine-tuning (SFT), quantization (W4A8/W8A8), retrieval-augmented generation (RAG), and direct preference optimization (DPO)",
+        "Designed two-stage curriculum learning combining instruction-following with domain-specific MCQA fine-tuning",
+        "Built RAG system with custom-trained embeddings and FAISS vector store",
+        "Achieved significant performance improvements across multiple benchmarks (HellaSwag, MathQA, MedMCQA, MMLU, SciQ)"
       ],
-      "startDate": "2022-09-01",
-      "endDate": "2023-07-01",
-      "url": ""
+      "url": "https://github.com/MarioRicoIbanez/ChatSplaining"
     },
     {
-      "name": "Emotion Detection through Audio and Text",
-      "summary": "Multi-modal emotion recognition system combining audio and text processing for comprehensive sentiment analysis.",
+      "name": "Impact of Whole-Slide Image Resolution on Pathology Models",
+      "summary": "Systematically analyzed how changes in Whole-Slide Image (WSI) resolution affect the performance of histopathological foundation models.",
       "highlights": [
-        "Integrated multiple data modalities for improved accuracy",
-        "Implemented state-of-the-art NLP and audio processing techniques",
-        "Developed scalable architecture for real-time emotion detection"
+        "Systematically analyzed how changes in Whole-Slide Image (WSI) resolution affect the performance of histopathological foundation models",
+        "Implemented a preprocessing pipeline to generate and validate tiles across varying magnification levels (5x, 10x, 20x, 40x)",
+        "Utilized Multiple-Instance Learning (MIL) techniques to aggregate embeddings from the UNI model",
+        "Conducted ablation studies on three breast histology datasets (BACH, BRACS, BreakHis)"
       ],
-      "startDate": "2022-01-01",
-      "endDate": "2023-01-01",
-      "url": "https://github.com/laurarimi/IA-project/tree/main"
+      "url": "https://github.com/CS-433/ml-project-2-ml-ts-4science"
     }
   ]
 }
