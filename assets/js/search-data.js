@@ -7,27 +7,20 @@ ninja.data = [{
     title: "about",
     section: "Navigation",
     handler: () => {
-      window.location.href = "/al-folio/";
+      window.location.href = "/";
     },
-  },{id: "nav-publications",
-          title: "publications",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/al-folio/publications/";
-          },
-        },{id: "nav-projects",
+  },{id: "nav-projects",
           title: "projects",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/al-folio/projects/";
+            window.location.href = "/projects/";
           },
         },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/al-folio/books/the_godfather/";
+              window.location.href = "/books/the_godfather/";
             },},{id: "news-completed-my-bachelor-s-in-telecommunications-engineering-at-universitat-politècnica-de-valència-with-a-thesis-on-deep-reinforcement-learning-for-uav-base-station-dynamic-positioning",
           title: 'Completed my Bachelor’s in Telecommunications Engineering at Universitat Politècnica de València with a...',
           description: "",
@@ -41,27 +34,27 @@ ninja.data = [{
           title: 'Adversarial Attacks on I2I Generative Models',
           description: "Adversarial robustness of diffusion models. LIONS lab, EPFL.",
           section: "Projects",handler: () => {
-              window.location.href = "/al-folio/projects/1_project/";
+              window.location.href = "/projects/1_project/";
             },},{id: "projects-evolution-strategies-for-deep-rl-pretraining",
           title: 'Evolution Strategies for Deep RL Pretraining',
           description: "ES as pretraining for DQN/PPO. w/ Swiss Data Science Center.",
           section: "Projects",handler: () => {
-              window.location.href = "/al-folio/projects/2_project/";
+              window.location.href = "/projects/2_project/";
             },},{id: "projects-chatsplaining-stem-tutoring",
           title: 'Chatsplaining: STEM Tutoring',
           description: "Fine-tuned Qwen3 + RAG + DPO for EPFL course QA.",
           section: "Projects",handler: () => {
-              window.location.href = "/al-folio/projects/3_project/";
+              window.location.href = "/projects/3_project/";
             },},{id: "projects-wsi-resolution-impact-on-pathology-models",
           title: 'WSI Resolution Impact on Pathology Models',
           description: "Magnification effects on foundation model embeddings. LTS4 lab, EPFL.",
           section: "Projects",handler: () => {
-              window.location.href = "/al-folio/projects/4_project/";
+              window.location.href = "/projects/4_project/";
             },},{id: "projects-uav-base-station-optimization-with-deep-rl",
           title: 'UAV Base Station Optimization with Deep RL',
           description: "PPO for aerial base station positioning in 5G/6G networks.",
           section: "Projects",handler: () => {
-              window.location.href = "/al-folio/projects/5_project/";
+              window.location.href = "/projects/5_project/";
             },},{
         id: 'social-email',
         title: 'email',
@@ -89,6 +82,13 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://scholar.google.com/citations?user=U-WrIfQAAAAJ", "_blank");
+        },
+      },{
+        id: 'social-x',
+        title: 'X',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://twitter.com/MarioRicoIbanez", "_blank");
         },
       },{
       id: 'light-theme',
