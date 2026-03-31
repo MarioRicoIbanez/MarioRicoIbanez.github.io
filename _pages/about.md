@@ -31,4 +31,4 @@ CS Master's at [EPFL](https://www.epfl.ch/). I study how to make models robust a
 **Before:**
 - RL Research w/ [David L&oacute;pez-P&eacute;rez](https://scholar.google.com/citations?user=9MhUwGsAAAAJ) -- optimizing UAV networks with PPO.
 - NLP Research at [CVBLab](https://www.cvblab.webs.upv.es) w/ [Valery Naranjo](https://scholar.google.es/citations?user=Wa-6l_0AAAAJ) -- fine-tuning LLMs for clinical NLP.
-- Telecom Engineering, [UPV](https://www.upv.es/).
+- Top 3 of promotion, Telecom Engineering at [UPV](https://www.upv.es/) -- self-driving cars, computer vision, hackathons.
