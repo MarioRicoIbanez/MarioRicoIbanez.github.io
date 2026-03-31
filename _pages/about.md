@@ -24,12 +24,10 @@ latest_posts:
   limit: 3
 ---
 
-LLMs, RL, gym, running.
-
-- 2024-- CS Master's @ <a href="https://www.epfl.ch/"><img src="/al-folio/assets/img/epfl_logo.svg" alt="EPFL" style="height:0.75em;vertical-align:-0.05em;"></a>
-- 2025-- ML Engineer @ <a href="https://www.xcert.ai/"><img src="/al-folio/assets/img/xcert_logo.svg" alt="Xcert AI" style="height:1.5em;vertical-align:-0.35em;"></a>
+- 2025-- ML Engineer @ <a href="https://www.xcert.ai/"><img src="/assets/img/xcert_logo.svg" alt="Xcert AI" style="height:1.5em;vertical-align:-0.35em;"></a>
+- 2024-- CS Master's @ <a href="https://www.epfl.ch/"><img src="/assets/img/epfl_logo.svg" alt="EPFL" style="height:0.75em;vertical-align:-0.05em;"></a>
 - 2024--25 RL Research w/ [David L&oacute;pez-P&eacute;rez](https://scholar.google.com/citations?user=falr85sAAAAJ&hl=en) @ [iTEAM](https://www.iteam.upv.es/)
 - 2023--24 NLP Research w/ [Valery Naranjo](https://scholar.google.com/citations?user=jk4XsG0AAAAJ&hl=es) @ [CVBLab](https://www.cvblab.webs.upv.es)
-- 2020--24 Top 3/200+, Telecom Engineering @ [UPV](https://www.upv.es/)
+- 2020--24 Telecom Engineering @ [UPV](https://www.upv.es/)
 
-[github](https://github.com/MarioRicoIbanez) | [scholar](https://scholar.google.com/citations?user=U-WrIfQAAAAJ) | [linkedin](https://www.linkedin.com/in/mario-rico-ibanez/) | mario.ricoibanez@epfl.ch
+[github](https://github.com/MarioRicoIbanez) | [scholar](https://scholar.google.com/citations?user=U-WrIfQAAAAJ) | [x](https://x.com/MarioRicoIbanez) | mario.ricoibanez@epfl.ch
