@@ -9,7 +9,7 @@
 // Typography: everything monospace, no exceptions
 // ─────────────────────────────────────────────
 
-* {
+*:not(.fa-solid):not(.fa-brands):not(.fa-regular):not(.fa):not([class*="fa-"]):not(.ti):not([class*="ti-"]):not([class*="ai-"]):not(.ai) {
   font-family: "JetBrains Mono", "DejaVu Sans Mono", "Courier New", monospace !important;
 }
 
@@ -415,10 +415,15 @@ article ul {
   list-style-type: "› " !important;
 }
 
-// Prevent list markers in navbar
-.navbar ul,
-nav ul {
+// Prevent list markers in navbar (high specificity)
+nav.navbar ul,
+nav.navbar ol,
+.navbar-nav,
+.navbar ul.navbar-nav,
+header ul,
+header nav ul {
   list-style-type: none !important;
+  list-style: none !important;
 }
 
 // Code-style year in publication list
