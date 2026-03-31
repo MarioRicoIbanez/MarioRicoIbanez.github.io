@@ -24,9 +24,9 @@ latest_posts:
   limit: 3
 ---
 
-CS Master's at [EPFL](https://www.epfl.ch/). LLMs, RL, running.
+CS Master's at <a href="https://www.epfl.ch/"><img src="/al-folio/assets/img/epfl_logo.png" alt="EPFL" style="height:1.1em;vertical-align:-0.15em;"></a>. LLMs, RL, running.
 
-- ML Engineer @ [Xcert AI](https://www.xcert.ai/)
-- RL Research w/ [David L&oacute;pez-P&eacute;rez](https://scholar.google.com/citations?user=falr85sAAAAJ&hl=en) @ [iTEAM](https://www.iteam.upv.es/)
-- NLP Research w/ [Valery Naranjo](https://scholar.google.com/citations?user=jk4XsG0AAAAJ&hl=es) @ [CVBLab](https://www.cvblab.webs.upv.es)
-- Top 3/200+, Telecom Engineering @ [UPV](https://www.upv.es/)
+- `2025--now` ML Engineer @ <a href="https://www.xcert.ai/"><img src="/al-folio/assets/img/xcert_logo.svg" alt="Xcert AI" style="height:0.9em;vertical-align:-0.1em;"></a>
+- `2024--25` RL Research w/ [David L&oacute;pez-P&eacute;rez](https://scholar.google.com/citations?user=falr85sAAAAJ&hl=en) @ [iTEAM](https://www.iteam.upv.es/)
+- `2023--24` NLP Research w/ [Valery Naranjo](https://scholar.google.com/citations?user=jk4XsG0AAAAJ&hl=es) @ [CVBLab](https://www.cvblab.webs.upv.es)
+- `2020--24` Top 3/200+, Telecom Engineering @ [UPV](https://www.upv.es/)
