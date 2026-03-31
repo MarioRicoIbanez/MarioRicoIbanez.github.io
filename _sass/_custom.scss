@@ -349,53 +349,74 @@ input[type="text"] {
 }
 
 // ─────────────────────────────────────────────
-// Projects page
+// Projects page: flat list (megaelius-style)
 // ─────────────────────────────────────────────
 
-.projects {
-  // Category headers
-  h2.category {
-    font-weight: 700 !important;
-    font-size: 0.9rem !important;
-    text-transform: uppercase;
-    letter-spacing: 0.06em;
-    padding-bottom: 0.3rem;
-    border-bottom: 1px solid var(--global-text-color);
-    margin-bottom: 1.5rem !important;
-    text-decoration: none !important;
+.project-list {
+  margin-top: 1.5rem;
+
+  .project-item {
+    padding: 1rem 0;
+    border-bottom: 1px dashed var(--global-divider-color);
+
+    &:last-child {
+      border-bottom: none;
+    }
+
+    .project-title {
+      font-weight: 700;
+      font-size: 0.95rem;
+    }
 
     a {
+      margin-left: 0.5ch;
       text-decoration: none !important;
+      opacity: 0.4;
+      transition: opacity 0.15s ease;
+
+      &:hover {
+        opacity: 1;
+      }
+
+      i {
+        font-size: 0.85rem;
+      }
+    }
+
+    .project-meta {
+      font-size: 0.8rem;
+      opacity: 0.55;
     }
   }
+}
 
-  // Project cards: minimal, no heavy shadows
-  .card {
-    border: 1px solid var(--global-divider-color) !important;
-    border-radius: 0 !important;
-    box-shadow: none !important;
-    background: transparent !important;
-    transition: border-color 0.15s ease;
+// ─────────────────────────────────────────────
+// Hacky details
+// ─────────────────────────────────────────────
 
-    &:hover {
-      border-color: var(--global-text-color) !important;
-    }
+// Terminal-style cursor blink on name
+.post-title::after {
+  content: "█";
+  animation: blink 1s step-end infinite;
+  opacity: 0.6;
+  font-weight: 400;
+  margin-left: 0.3ch;
+}
 
-    .card-title {
-      font-weight: 700;
-      font-size: 0.85rem;
-      text-transform: uppercase;
-      letter-spacing: 0.04em;
-    }
+@keyframes blink {
+  50% { opacity: 0; }
+}
 
-    .card-text {
-      font-size: 0.78rem;
-      opacity: 0.7;
-    }
+// Monospace list markers
+ul {
+  list-style-type: "› " !important;
+}
 
-    img {
-      border-radius: 0 !important;
-    }
+// Code-style year in publication list
+.publications .year {
+  &::before {
+    content: "// ";
+    opacity: 0.3;
   }
 }
 
