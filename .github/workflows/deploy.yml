@@ -3,11 +3,13 @@ name: Deploy
 on:
   push:
     branches:
-      - main  # o master, dependiendo de tu rama principal
+      - main
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -17,7 +19,7 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.1'
+          ruby-version: "3.3"
           bundler-cache: true
 
       - name: Build site
@@ -26,7 +28,7 @@ jobs:
           JEKYLL_ENV: production
 
       - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
+        uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./_site

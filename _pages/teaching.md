@@ -8,4 +8,3 @@ nav_order: 6
 ---
 
 Teaching page coming soon.
-

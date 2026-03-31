@@ -12,98 +12,98 @@ https://github.com/postmodern/ruby-install#readme
 
 ## ARGUMENTS
 
-*RUBY*
-	Install Ruby by name. Must be either `ruby`, `jruby`, `truffleruby`, or
-  `mruby`.
+_RUBY_
+Install Ruby by name. Must be either `ruby`, `jruby`, `truffleruby`, or
+`mruby`.
 
-*VERSION*
-	Optionally select the version of selected Ruby.
+_VERSION_
+Optionally select the version of selected Ruby.
 
-*CONFIGURE_OPTS*
-	Additional optional configure arguments.
+_CONFIGURE_OPTS_
+Additional optional configure arguments.
 
 ## OPTIONS
 
-`-r`, `--rubies-dir` *DIR*
-	Specifies the alternate directory where other Ruby directories are
-	installed, such as *~/.rvm/rubies* or *~/.rbenv/versions*.
-	Defaults to */opt/rubies* for root and *~/.rubies* for normal users.
+`-r`, `--rubies-dir` _DIR_
+Specifies the alternate directory where other Ruby directories are
+installed, such as _~/.rvm/rubies_ or _~/.rbenv/versions_.
+Defaults to _/opt/rubies_ for root and _~/.rubies_ for normal users.
 
-`-i`, `--install-dir` *DIR*
-	Specifies the directory where Ruby will be installed.
-	Defaults to */opt/rubies/$ruby-$version* for root and
-	*~/.rubies/$ruby-$version* for normal users.
+`-i`, `--install-dir` _DIR_
+Specifies the directory where Ruby will be installed.
+Defaults to _/opt/rubies/$ruby-$version_ for root and
+_~/.rubies/$ruby-$version_ for normal users.
 
-`--prefix` *DIR*
-	Alias for `-i DIR`.
+`--prefix` _DIR_
+Alias for `-i DIR`.
 
 `--system`
-	Alias for `-i /usr/local`.
+Alias for `-i /usr/local`.
 
-`-s`, `--src-dir` *DIR*
-	Specifies the directory for downloading and unpacking Ruby source.
+`-s`, `--src-dir` _DIR_
+Specifies the directory for downloading and unpacking Ruby source.
 
 `-c`, `--cleanup`
-	Remove the downloaded Ruby archive and unpacked source-code after
-	installation.
+Remove the downloaded Ruby archive and unpacked source-code after
+installation.
 
-`-j`, `--jobs` *NUM*, `-j`*NUM*, `--jobs=`*NUM*
-	Specifies the number of *make* jobs to run in parallel when compiling
-	Ruby. If the -j option is provided without an argument, *make* will
-	allow an unlimited number of simultaneous jobs.
+`-j`, `--jobs` _NUM_, `-j`_NUM_, `--jobs=`_NUM_
+Specifies the number of _make_ jobs to run in parallel when compiling
+Ruby. If the -j option is provided without an argument, _make_ will
+allow an unlimited number of simultaneous jobs.
 
-`-p`, `--patch` *FILE*
-	Specifies any additional patches to apply.
+`-p`, `--patch` _FILE_
+Specifies any additional patches to apply.
 
-`-M`, `--mirror` *URL*
-	Specifies an alternate mirror to download the Ruby archive from.
+`-M`, `--mirror` _URL_
+Specifies an alternate mirror to download the Ruby archive from.
 
-`-u`, `--url` *URL*
-	Alternate URL to download the Ruby archive from.
+`-u`, `--url` _URL_
+Alternate URL to download the Ruby archive from.
 
-`-m`, `--md5` *MD5*
-	Specifies the MD5 checksum for the Ruby archive.
+`-m`, `--md5` _MD5_
+Specifies the MD5 checksum for the Ruby archive.
 
-`--sha1` *SHA1*
-	Specifies the SHA1 checksum for the Ruby archive.
+`--sha1` _SHA1_
+Specifies the SHA1 checksum for the Ruby archive.
 
-`--sha256` *SHA256*
-	Specifies the SHA256 checksum for the Ruby archive.
+`--sha256` _SHA256_
+Specifies the SHA256 checksum for the Ruby archive.
 
-`--sha512` *SHA512*
-	Specifies the SHA512 checksum for the Ruby archive.
+`--sha512` _SHA512_
+Specifies the SHA512 checksum for the Ruby archive.
 
 `--package-manager [apt|dnf|yum|pacman|zypper|brew|pkg|port]`
-  Use an alternative package manager.
+Use an alternative package manager.
 
 `--no-download`
-	Use the previously downloaded Ruby archive.
+Use the previously downloaded Ruby archive.
 
 `--no-verify`
-	Do not verify the downloaded Ruby archive.
+Do not verify the downloaded Ruby archive.
 
 `--no-extract`
-	Do not extract the downloaded Ruby archive. Implies `--no-download`
-	and `--no-verify`.
+Do not extract the downloaded Ruby archive. Implies `--no-download`
+and `--no-verify`.
 
 `--no-install-deps`
-	Do not install build dependencies before installing Ruby.
+Do not install build dependencies before installing Ruby.
 
 `--no-reinstall`
-	Skip installation if another Ruby is detected in same location.
+Skip installation if another Ruby is detected in same location.
 
 `-U`, `--update`
-	Downloads the latest ruby versions and checksums from the ruby-versions
-	repository (https://github.com/postmodern/ruby-versions#readme).
+Downloads the latest ruby versions and checksums from the ruby-versions
+repository (https://github.com/postmodern/ruby-versions#readme).
 
 `-D`, `--debug`
-    Enable debugging messages.
+Enable debugging messages.
 
 `-V`, `--version`
-	Prints the current ruby-install version.
+Prints the current ruby-install version.
 
 `-h`, `--help`
-	Prints a synopsis of ruby-install usage.
+Prints a synopsis of ruby-install usage.
 
 ## EXAMPLES
 
@@ -173,28 +173,28 @@ Uninstall a Ruby version:
 
 ## FILES
 
-*/usr/local/src*
-	Default root user source directory.
+_/usr/local/src_
+Default root user source directory.
 
-*~/src*
-	Default non-root user source directory.
+_~/src_
+Default non-root user source directory.
 
-*/opt/rubies/$ruby-$version*
-	Default root user installation directory.
+_/opt/rubies/$ruby-$version_
+Default root user installation directory.
 
-*~/.rubies/$ruby-$version*
-	Default non-root user installation directory.
+_~/.rubies/$ruby-$version_
+Default non-root user installation directory.
 
 ## ENVIRONMENT
 
-*RUBY_INSTALL_SRC_DIR*
-  Overrides the default source directory.
+_RUBY_INSTALL_SRC_DIR_
+Overrides the default source directory.
 
-*RUBY_INSTALL_RUBIES_DIR*
-  Overrides the default installation directory.
+_RUBY_INSTALL_RUBIES_DIR_
+Overrides the default installation directory.
 
-*RUBY_INSTALL_PKG_MANAGER*
-  Explicitly sets the package manager to use.
+_RUBY_INSTALL_PKG_MANAGER_
+Explicitly sets the package manager to use.
 
 ## AUTHOR
 

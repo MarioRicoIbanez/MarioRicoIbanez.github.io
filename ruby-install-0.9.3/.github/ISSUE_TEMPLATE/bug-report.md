@@ -1,10 +1,9 @@
 ---
 name: Bug Report
 about: Report a bug
-title: ''
+title: ""
 labels: bug
-assignees: ''
-
+assignees: ""
 ---
 
 <!--
@@ -45,6 +44,7 @@ to be reported to https://bugs.ruby-lang.org/.
 ## Steps To Reproduce
 
 Steps to reproduce the bug:
+
 1. `$ ruby-install ...`
 2. ???
 
@@ -67,7 +67,7 @@ Steps to reproduce the bug:
     $ openssl version
     ...
 
-<!-- if the issue is a JRuby issue: 
+<!-- if the issue is a JRuby issue:
 
     $ java --version
 

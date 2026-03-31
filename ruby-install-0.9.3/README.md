@@ -4,51 +4,51 @@ Installs [Ruby], [JRuby], [TruffleRuby] (native / GraalVM), or [mruby].
 
 ## Features
 
-* Supports installing arbitrary versions.
-* Supports downloading the latest versions and checksums from [ruby-versions].
-* Supports installing into `/opt/rubies/` for root and `~/.rubies/` for users
+- Supports installing arbitrary versions.
+- Supports downloading the latest versions and checksums from [ruby-versions].
+- Supports installing into `/opt/rubies/` for root and `~/.rubies/` for users
   by default.
-* Supports installing into arbitrary directories.
-* Supports downloading from arbitrary URLs.
-* Supports downloading from mirrors.
-* Supports downloading/applying patches.
-* Supports specifying arbitrary `./configure` options.
-* Supports downloading archives using `wget` or `curl`.
-* Supports verifying downloaded archives via MD5, SHA1, SHA256 or SHA512
+- Supports installing into arbitrary directories.
+- Supports downloading from arbitrary URLs.
+- Supports downloading from mirrors.
+- Supports downloading/applying patches.
+- Supports specifying arbitrary `./configure` options.
+- Supports downloading archives using `wget` or `curl`.
+- Supports verifying downloaded archives via MD5, SHA1, SHA256 or SHA512
   checksums.
-* Supports installing build dependencies via the package manager:
-  * [apt]
-  * [dnf]
-  * [yum]
-  * [pacman]
-  * [zypper]
-  * [xbps]
-  * [pkg]
-  * [macports]
-  * [brew]
-* Has tests.
+- Supports installing build dependencies via the package manager:
+  - [apt]
+  - [dnf]
+  - [yum]
+  - [pacman]
+  - [zypper]
+  - [xbps]
+  - [pkg]
+  - [macports]
+  - [brew]
+- Has tests.
 
 ## Anti-Features
 
-* Does not require updating every time a new Ruby version comes out.
-* Does not require recipes for each individual Ruby version or configuration.
-* Does not support installing trunk/HEAD or nightly rolling releases.
-* Does not support installing unsupported/unmaintained versions of Ruby.
+- Does not require updating every time a new Ruby version comes out.
+- Does not require recipes for each individual Ruby version or configuration.
+- Does not support installing trunk/HEAD or nightly rolling releases.
+- Does not support installing unsupported/unmaintained versions of Ruby.
 
 ## Requirements
 
-* [bash] >= 3.x
-* `grep`
-* [wget] > 1.12 or [curl]
-* `md5sum` or `md5`
-* `sha1sum` or `sha1`
-* `sha256sum` or `sha256`
-* `sha512sum` or `sha512`
-* `tar`
-* `bzip2`
-* `xz`
-* `patch` (if `--patch` is specified)
-* [gcc] >= 4.2 or [clang]
+- [bash] >= 3.x
+- `grep`
+- [wget] > 1.12 or [curl]
+- `md5sum` or `md5`
+- `sha1sum` or `sha1`
+- `sha256sum` or `sha256`
+- `sha512sum` or `sha512`
+- `tar`
+- `bzip2`
+- `xz`
+- `patch` (if `--patch` is specified)
+- [gcc] >= 4.2 or [clang]
 
 ## Synopsis
 
@@ -224,8 +224,8 @@ Please see the [wiki](https://github.com/postmodern/ruby-install/wiki/Known-Issu
 
 ## Alternatives
 
-* [RVM]
-* [ruby-build]
+- [RVM]
+- [ruby-build]
 
 ## Endorsements
 
@@ -235,12 +235,10 @@ Please see the [wiki](https://github.com/postmodern/ruby-install/wiki/Known-Issu
 of [rbenv]
 
 [ruby-versions]: https://github.com/postmodern/ruby-versions#readme
-
 [Ruby]: http://www.ruby-lang.org/
 [JRuby]: http://jruby.org/
 [TruffleRuby]: https://github.com/oracle/truffleruby
 [mruby]: https://github.com/mruby/mruby#readme
-
 [apt]: http://wiki.debian.org/Apt
 [dnf]: https://fedoraproject.org/wiki/Features/DNF
 [yum]: http://yum.baseurl.org/
@@ -250,22 +248,17 @@ of [rbenv]
 [pkg]: https://wiki.freebsd.org/pkgng
 [macports]: https://www.macports.org/
 [brew]: http://brew.sh
-
 [bash]: http://www.gnu.org/software/bash/
 [wget]: http://www.gnu.org/software/wget/
 [curl]: http://curl.haxx.se/
-
 [gcc]: http://gcc.gnu.org/
 [clang]: http://clang.llvm.org/
-
 [RVM]: https://rvm.io/
 [rbenv]: https://github.com/sstephenson/rbenv#readme
 [ruby-build]: https://github.com/sstephenson/ruby-build#readme
 [Chef]: https://github.com/rosstimson/chef-ruby_install#readme
-
 [PGP]: http://en.wikipedia.org/wiki/Pretty_Good_Privacy
 [1]: http://postmodern.github.io/pgp/
-
 [homebrew]: http://brew.sh/
 [AUR]: https://aur.archlinux.org/packages/ruby-install/
 [FreeBSD ports collection]: https://www.freshports.org/devel/ruby-install/

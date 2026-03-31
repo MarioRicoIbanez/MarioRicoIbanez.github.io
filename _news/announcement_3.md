@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Completed my **Bachelor's in Telecommunications Engineering** at Universitat Politècnica de València with a thesis on *Deep Reinforcement Learning for UAV Base Station Dynamic Positioning*.
+Completed my **Bachelor's in Telecommunications Engineering** at Universitat Politècnica de València with a thesis on _Deep Reinforcement Learning for UAV Base Station Dynamic Positioning_.

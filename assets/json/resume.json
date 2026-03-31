@@ -101,13 +101,7 @@
       "startDate": "2020-09-01",
       "endDate": "2024-06-01",
       "score": "GPA: 9/10, Top 3/200+ | 22/40 subjects with honours",
-      "courses": [
-        "Telecommunication Systems",
-        "Mobile Networks",
-        "Signal Processing",
-        "Network Protocols",
-        "RF Engineering"
-      ]
+      "courses": ["Telecommunication Systems", "Mobile Networks", "Signal Processing", "Network Protocols", "RF Engineering"]
     }
   ],
   "awards": [],
@@ -135,18 +129,7 @@
       "name": "Programming",
       "level": "Expert",
       "icon": "fa-solid fa-code",
-      "keywords": [
-        "Python",
-        "PyTorch",
-        "TensorFlow",
-        "Keras",
-        "Git",
-        "Docker",
-        "LaTeX",
-        "Bash",
-        "Matlab",
-        "Elixir"
-      ]
+      "keywords": ["Python", "PyTorch", "TensorFlow", "Keras", "Git", "Docker", "LaTeX", "Bash", "Matlab", "Elixir"]
     }
   ],
   "languages": [

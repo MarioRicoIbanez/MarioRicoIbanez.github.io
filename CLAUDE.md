@@ -88,6 +88,7 @@ npm run prettier
 ### Jekyll Collections
 
 The site uses Jekyll collections for organized content:
+
 - **`posts`**: Blog posts (default Jekyll collection)
 - **`projects`**: Project portfolio items
 - **`news`**: Homepage announcements
@@ -96,6 +97,7 @@ The site uses Jekyll collections for organized content:
 ### Publications System
 
 Uses **Jekyll Scholar** plugin for bibliography management:
+
 - Add entries to `_bibliography/papers.bib`
 - Supports custom fields: `pdf`, `code`, `website`, `slides`, `poster`, `arxiv`, etc.
 - Auto-generates publication page with search and filtering
@@ -135,6 +137,7 @@ Uses **Jekyll Scholar** plugin for bibliography management:
 ### Manual Deployment
 
 Use `./bin/deploy` script which:
+
 1. Builds the site with `JEKYLL_ENV=production`
 2. Purges unused CSS
 3. Pushes to `gh-pages` branch
@@ -151,6 +154,7 @@ Use `./bin/deploy` script which:
 ## Plugin Ecosystem
 
 Key Jekyll plugins used:
+
 - `jekyll-scholar`: Bibliography management
 - `jekyll-jupyter-notebook`: Jupyter notebook support
 - `jekyll-imagemagick`: Responsive image generation
