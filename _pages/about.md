@@ -29,6 +29,6 @@ CS Master's at [EPFL](https://www.epfl.ch/). I study how to make models robust a
 **Now:** ML Engineer at [Xcert AI](https://www.xcert.ai/) -- building RAG systems for aerospace compliance.
 
 **Before:**
-- RL Research at [IT](https://www.it.pt/) -- optimizing UAV networks with PPO.
-- NLP Research at [CVBLab](https://www.upv.es/) -- fine-tuning LLMs for clinical NLP.
+- RL Research w/ [David L&oacute;pez-P&eacute;rez](https://scholar.google.com/citations?user=9MhUwGsAAAAJ) -- optimizing UAV networks with PPO.
+- NLP Research at [CVBLab](https://www.cvblab.webs.upv.es) w/ [Valery Naranjo](https://scholar.google.es/citations?user=Wa-6l_0AAAAJ) -- fine-tuning LLMs for clinical NLP.
 - Telecom Engineering, [UPV](https://www.upv.es/).
