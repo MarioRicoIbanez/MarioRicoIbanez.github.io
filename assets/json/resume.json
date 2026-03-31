@@ -114,12 +114,20 @@
   "certificates": [],
   "publications": [
     {
-      "name": "Optimizing Aerial Base Station Positioning Using Deep Reinforcement Learning in UAV Networks",
-      "publisher": "IEEE International Conference on Communications (ICC)",
-      "releaseDate": "2024-01-01",
+      "name": "Optimizing UAV Aerial Base Station Flights Using DRL-based Proximal Policy Optimization",
+      "publisher": "arXiv preprint",
+      "releaseDate": "2025-04-01",
       "url": "https://arxiv.org/abs/2504.03961",
-      "summary": "Applying PPO with continuous actions for UAV base-station positioning optimization in mobile networks.",
+      "summary": "Automated reinforcement learning approach for UAV base-station positioning using PPO with continuous actions across diverse mobility scenarios.",
       "authors": "Rico Ibáñez, Mario; Akhtarshenas, Azim; López-Pérez, David; Geraci, Giovanni"
+    },
+    {
+      "name": "Mejorando el Análisis de Emociones en texto mediante Llama 2",
+      "publisher": "XLI Congreso Anual de la Sociedad Española de Ingeniería Biomédica (CASEIB)",
+      "releaseDate": "2023-01-01",
+      "url": "https://dialnet.unirioja.es/servlet/articulo?codigo=9429598",
+      "summary": "Novel perspective on emotion analysis using Llama 2 for multilabel emotion recognition in formal datasets.",
+      "authors": "Rico Ibáñez, Mario; del Amor, Rocío; Naranjo, Valery"
     }
   ],
   "skills": [
@@ -162,28 +170,36 @@
   "references": [],
   "projects": [
     {
-      "name": "Adversarial Attacks on Image-to-Image Models",
-      "summary": "Reduced CLIP similarity 0.88 to 0.74 (16%) under APGD attacks across 3 diffusion models. Evaluated 10k+ generated images; analyzed RobustCLIP & dataset filtering trade-offs. Supervised by Prof. Volkan Cevher.",
+      "name": "Adversarial Attacks on Image-to-Image Generative Models",
+      "summary": "Investigated robustness of diffusion models against adversarial attacks. Reduced CLIP similarity from 0.88 to 0.74 under APGD attacks. Supervised by Prof. Volkan Cevher at LIONS lab.",
       "highlights": [],
-      "startDate": "2024-09-01",
-      "endDate": "2025-01-01",
-      "url": ""
-    },
-    {
-      "name": "Chatsplaining: Intelligent STEM Tutoring",
-      "summary": "Improved STEM QA accuracy 0.25 to 0.40 via 3-stage curriculum, SFT + RAG + quantization; indexed 39k chunks in FAISS. Applied DPO to boost reasoning (0.841) rivaling larger models.",
-      "highlights": [],
-      "startDate": "2024-09-01",
-      "endDate": "2025-01-01",
+      "startDate": "2025-02-01",
+      "endDate": "2025-06-01",
       "url": ""
     },
     {
       "name": "Evolution Strategies for Deep RL Pretraining",
-      "summary": "Explored Evolution Strategies as pretraining for DQN/PPO across Flappy Bird, Breakout, and MuJoCo. Swiss Data Science Center collaboration.",
+      "summary": "Explored ES as pretraining for DQN/PPO across Flappy Bird, Breakout, and MuJoCo. Collaboration with Swiss Data Science Center.",
       "highlights": [],
-      "startDate": "2024-01-01",
-      "endDate": "2024-06-01",
+      "startDate": "2025-02-01",
+      "endDate": "2025-06-01",
       "url": "https://github.com/talphaidze/Evolution-Strategies-for-Deep-RL-Pretraining"
+    },
+    {
+      "name": "Chatsplaining: Intelligent STEM Tutoring System",
+      "summary": "Fine-tuned Qwen3-0.6B-Base with SFT, RAG, quantization, and DPO for STEM QA at EPFL. Indexed 39k chunks in FAISS.",
+      "highlights": [],
+      "startDate": "2025-02-01",
+      "endDate": "2025-02-01",
+      "url": ""
+    },
+    {
+      "name": "Impact of Whole-Slide Image Resolution on Foundation Model Performance",
+      "summary": "Evaluated UNI foundation model across magnifications using breast histology datasets. AI4Science project supervised by LTS4 lab.",
+      "highlights": [],
+      "startDate": "2024-09-01",
+      "endDate": "2025-01-01",
+      "url": ""
     }
   ]
 }
