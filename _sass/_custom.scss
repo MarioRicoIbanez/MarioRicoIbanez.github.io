@@ -1,0 +1,112 @@
+/*******************************************************************************
+ * Custom styles - Monospace / Hacky Research Aesthetic
+ ******************************************************************************/
+
+// Global monospace font override
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+em,
+div,
+li,
+span,
+strong,
+a,
+input,
+textarea,
+button,
+.navbar,
+.navbar-brand,
+.nav-link,
+footer {
+  font-family: "JetBrains Mono", "Courier New", monospace !important;
+}
+
+// Lighter body text weight
+body {
+  font-weight: 400;
+  font-size: 0.95rem;
+  line-height: 1.7;
+  letter-spacing: -0.01em;
+}
+
+// Clean headings
+h1,
+.post-title {
+  font-weight: 500 !important;
+  font-size: 2rem !important;
+  letter-spacing: -0.02em;
+}
+
+h2 {
+  font-weight: 500 !important;
+  font-size: 1.3rem !important;
+}
+
+// Minimal navbar
+.navbar {
+  font-size: 0.85rem;
+  text-transform: lowercase;
+  letter-spacing: 0.02em;
+  border-bottom: 1px solid var(--global-divider-color);
+  box-shadow: none !important;
+}
+
+.navbar-brand {
+  font-weight: 500;
+  font-size: 1rem !important;
+}
+
+// Clean links
+a {
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+// Profile section tweaks
+.profile {
+  .address {
+    font-family: "JetBrains Mono", monospace !important;
+    font-size: 0.8rem;
+  }
+}
+
+// Subtitle - hide if empty
+.post-description {
+  font-size: 0.9rem;
+  font-weight: 400;
+  opacity: 0.7;
+}
+
+// Publications - cleaner
+.publications {
+  h2 {
+    font-size: 1.2rem !important;
+    text-transform: lowercase;
+  }
+}
+
+// Footer - minimal
+footer {
+  font-size: 0.75rem;
+  opacity: 0.6;
+}
+
+// Smooth profile image
+.profile .profile-img {
+  max-width: 180px;
+}
+
+// Selected publications heading
+article h2.bibliography a {
+  font-size: 1.1rem;
+  text-transform: lowercase;
+}
