@@ -395,7 +395,8 @@ input[type="text"] {
 // ─────────────────────────────────────────────
 
 // Terminal-style cursor blink on name
-.post-title::after {
+h1.post-title::after,
+.about h1::after {
   content: "█";
   animation: blink 1s step-end infinite;
   opacity: 0.6;
@@ -407,17 +408,24 @@ input[type="text"] {
   50% { opacity: 0; }
 }
 
-// Monospace list markers
-ul {
+// Monospace list markers (only in content, not navbar)
+.post-content ul,
+.project-list ul,
+article ul {
   list-style-type: "› " !important;
 }
 
+// Prevent list markers in navbar
+.navbar ul,
+nav ul {
+  list-style-type: none !important;
+}
+
 // Code-style year in publication list
-.publications .year {
-  &::before {
-    content: "// ";
-    opacity: 0.3;
-  }
+.publications h2.bibliography::before {
+  content: "// ";
+  opacity: 0.3;
+  font-weight: 400;
 }
 
 // ─────────────────────────────────────────────
