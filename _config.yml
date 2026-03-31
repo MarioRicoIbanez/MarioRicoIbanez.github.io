@@ -7,9 +7,8 @@ first_name: Mario
 middle_name: Rico
 last_name: Ibáñez
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Telecommunications Engineer with Master's degrees in AI and Computer Science from EPFL. Specialized in Deep Reinforcement Learning for UAV networks and telecommunications optimization.
+  Computer Science MSc at EPFL. Machine Learning Engineer. Research in adversarial robustness, deep RL, and LLMs.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.cloudflare.com/" target="_blank">Cloudflare Pages</a>.
@@ -47,7 +46,7 @@ repo_trophies:
 
 navbar_fixed: true
 footer_fixed: true
-search_enabled: true
+search_enabled: false
 socials_in_search: true
 posts_in_search: true
 bib_search: true
