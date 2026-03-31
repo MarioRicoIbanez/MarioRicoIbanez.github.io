@@ -84,13 +84,6 @@ ninja.data = [{
           window.open("https://www.linkedin.com/in/mario-rico-ibáñez-6b5888225", "_blank");
         },
       },{
-        id: 'social-rss',
-        title: 'RSS Feed',
-        section: 'Socials',
-        handler: () => {
-          window.open("/al-folio/feed.xml", "_blank");
-        },
-      },{
         id: 'social-scholar',
         title: 'Google Scholar',
         section: 'Socials',
