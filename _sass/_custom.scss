@@ -140,7 +140,7 @@ a {
   }
 
   .profile-img {
-    max-width: 120px;
+    max-width: 90px;
   }
 }
 
@@ -394,9 +394,8 @@ input[type="text"] {
 // Hacky details
 // ─────────────────────────────────────────────
 
-// Terminal-style cursor blink on name
-h1.post-title::after,
-.about h1::after {
+// Terminal-style cursor blink on name (about page only)
+.about .post-title::after {
   content: "█";
   animation: blink 1s step-end infinite;
   opacity: 0.6;
