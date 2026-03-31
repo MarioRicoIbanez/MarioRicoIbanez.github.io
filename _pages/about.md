@@ -24,12 +24,12 @@ latest_posts:
   limit: 3
 ---
 
-I am a Machine Learning Engineer and CS Master's student at [EPFL](https://www.epfl.ch/).
+I am a CS Master's student at [EPFL](https://www.epfl.ch/) interested in adversarial robustness, reinforcement learning, and large language models.
 
-I like building things that work and breaking things that shouldn't.
+**Currently:**
+- ML Engineer at [Xcert AI](https://www.xcert.ai/) -- semantic search & RAG for aerospace compliance.
 
 **Previously:**
-- Machine Learning Engineer at [Xcert AI](https://www.xcert.ai/).
-- RL Research at [Instituto de Telecomunicaciones](https://www.it.pt/).
-- NLP Research at [CVBLab, UPV](https://www.upv.es/).
-- BSc Telecommunications Engineering at [UPV](https://www.upv.es/).
+- RL Research at [Instituto de Telecomunicaciones](https://www.it.pt/) -- UAV positioning with PPO.
+- NLP Research at [CVBLab](https://www.upv.es/) -- emotion analysis with Llama-2.
+- BSc Telecom Engineering, [UPV](https://www.upv.es/).

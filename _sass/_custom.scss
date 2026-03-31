@@ -156,17 +156,44 @@ footer {
   }
 }
 
-// Social icons - subtle
+// Social icons - small, inline, subtle
 .social {
-  margin-top: 2rem;
+  margin-top: 1.5rem;
 
-  a {
-    opacity: 0.5;
-    transition: opacity 0.2s ease;
+  .contact-icons {
+    font-size: 1.3rem !important;
 
-    &:hover {
-      opacity: 1;
+    a {
+      opacity: 0.45;
+      transition: opacity 0.2s ease;
+      margin: 0 0.3rem;
+
+      &:hover {
+        opacity: 1;
+      }
+
+      img {
+        width: 1.2rem !important;
+        height: 1.2rem !important;
+        margin-bottom: 0 !important;
+      }
+
+      svg {
+        width: 1.3rem !important;
+        height: 1.3rem !important;
+        margin-bottom: 0 !important;
+
+        image {
+          width: 1.3rem !important;
+          height: 1.3rem !important;
+        }
+      }
     }
+  }
+
+  .contact-note {
+    font-size: 0.75rem;
+    opacity: 0.5;
   }
 }
 
