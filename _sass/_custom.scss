@@ -1,5 +1,6 @@
 /*******************************************************************************
  * Custom styles - Monospace / Hacky Research Aesthetic
+ * Inspired by Anthropic's clean warmth + hacker minimalism
  ******************************************************************************/
 
 // Global monospace font override
@@ -27,86 +28,170 @@ footer {
   font-family: "JetBrains Mono", "Courier New", monospace !important;
 }
 
-// Lighter body text weight
+// Body
 body {
   font-weight: 400;
-  font-size: 0.95rem;
-  line-height: 1.7;
+  font-size: 0.92rem;
+  line-height: 1.8;
   letter-spacing: -0.01em;
 }
 
-// Clean headings
+// Headings - clean, spacious
 h1,
 .post-title {
   font-weight: 500 !important;
   font-size: 2rem !important;
   letter-spacing: -0.02em;
+  margin-bottom: 1.5rem !important;
 }
 
 h2 {
   font-weight: 500 !important;
-  font-size: 1.3rem !important;
+  font-size: 1.25rem !important;
+  margin-top: 2.5rem !important;
+  margin-bottom: 1rem !important;
 }
 
-// Minimal navbar
+// Navbar - transparent, blends with background (Anthropic-style)
 .navbar {
-  font-size: 0.85rem;
+  font-size: 0.82rem;
   text-transform: lowercase;
-  letter-spacing: 0.02em;
-  border-bottom: 1px solid var(--global-divider-color);
+  letter-spacing: 0.03em;
+  background-color: transparent !important;
+  border-bottom: none !important;
   box-shadow: none !important;
+  padding: 1.2rem 0;
 }
 
 .navbar-brand {
   font-weight: 500;
-  font-size: 1rem !important;
+  font-size: 0.95rem !important;
 }
 
-// Clean links
+.nav-link {
+  opacity: 0.7;
+  transition: opacity 0.2s ease;
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
+// Links - subtle blue, Anthropic-style underline on hover
 a {
   text-decoration: none;
+  transition: opacity 0.15s ease;
 
   &:hover {
     text-decoration: underline;
+    text-underline-offset: 3px;
   }
 }
 
-// Profile section tweaks
+// Main content area - more breathing room
+.about {
+  .profile {
+    margin-top: 1rem;
+  }
+}
+
+.post-content {
+  padding-top: 0.5rem;
+}
+
+// Profile section
 .profile {
   .address {
     font-family: "JetBrains Mono", monospace !important;
-    font-size: 0.8rem;
+    font-size: 0.78rem;
+    opacity: 0.6;
+  }
+
+  .profile-img {
+    max-width: 200px;
   }
 }
 
-// Subtitle - hide if empty
+// Hide subtitle if empty
 .post-description {
-  font-size: 0.9rem;
+  font-size: 0.88rem;
   font-weight: 400;
-  opacity: 0.7;
+  opacity: 0.6;
 }
 
-// Publications - cleaner
+// Publications - cleaner, more spacious
 .publications {
   h2 {
-    font-size: 1.2rem !important;
+    font-size: 1.15rem !important;
     text-transform: lowercase;
   }
 }
 
-// Footer - minimal
-footer {
-  font-size: 0.75rem;
-  opacity: 0.6;
+ol.bibliography {
+  li {
+    margin-bottom: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
 }
 
-// Smooth profile image
-.profile .profile-img {
-  max-width: 180px;
+// Buttons in publications - subtle
+.btn-outline-primary {
+  font-size: 0.72rem !important;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  padding: 0.25rem 0.6rem;
+  border-radius: 2px;
+}
+
+// Footer - barely there, Anthropic-style
+footer {
+  font-size: 0.72rem;
+  opacity: 0.4;
+  background-color: transparent !important;
+  border-top: 1px solid var(--global-divider-color);
+  padding: 1.5rem 0 !important;
+
+  &.fixed-bottom {
+    position: relative !important;
+  }
+}
+
+// Social icons - subtle
+.social {
+  margin-top: 2rem;
+
+  a {
+    opacity: 0.5;
+    transition: opacity 0.2s ease;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
 }
 
 // Selected publications heading
 article h2.bibliography a {
   font-size: 1.1rem;
   text-transform: lowercase;
+}
+
+// Scrollbar - minimal
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--global-divider-color);
+  border-radius: 2px;
+}
+
+// Selection color
+::selection {
+  background: var(--global-theme-color);
+  color: white;
 }
