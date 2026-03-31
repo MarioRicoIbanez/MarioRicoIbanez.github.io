@@ -16,3 +16,8 @@ Developed an AI tutoring system by fine-tuning Qwen3-0.6B-Base for STEM-related 
 - Applied DPO to boost reasoning (0.841) rivaling larger models
 
 **Skills:** Natural Language Processing, Large Language Models, RAG
+
+<div class="links mt-3">
+  <a href="https://github.com/MarioRicoIbanez/ChatSplaining/blob/main/MNLP_FINAL_REPORT.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-file-pdf"></i> Report PDF</a>
+  <a href="https://github.com/MarioRicoIbanez/ChatSplaining" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i> Code</a>
+</div>

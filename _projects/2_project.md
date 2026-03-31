@@ -17,4 +17,7 @@ Explored Evolution Strategies (ES) as reinforcement learning algorithms and as p
 
 **Skills:** Reinforcement Learning, Evolution Strategies, PyTorch
 
-[GitHub Repository](https://github.com/talphaidze/Evolution-Strategies-for-Deep-RL-Pretraining)
+<div class="links mt-3">
+  <a href="https://github.com/MarioRicoIbanez/ES_DRL/blob/main/Evolution_Strategies_for_Deep_RL_pretraining___Poster.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-file-pdf"></i> Poster PDF</a>
+  <a href="https://github.com/MarioRicoIbanez/ES_DRL" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i> Code</a>
+</div>

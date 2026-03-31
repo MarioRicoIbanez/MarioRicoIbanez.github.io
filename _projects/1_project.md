@@ -16,3 +16,8 @@ Investigated the robustness of image-to-image generative models against adversar
 - Supervised by Prof. Volkan Cevher and Elias Abad Rocamora
 
 **Skills:** Deep Learning, Generative Models, Adversarial Robustness, PyTorch
+
+<div class="links mt-3">
+  <a href="https://github.com/MarioRicoIbanez/AdversarialML-I2I/blob/main/assets/2025_Rico_AttacksI2I.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-file-pdf"></i> Paper PDF</a>
+  <a href="https://github.com/MarioRicoIbanez/AdversarialML-I2I" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i> Code</a>
+</div>
