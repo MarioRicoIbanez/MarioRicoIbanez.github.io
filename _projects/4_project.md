@@ -16,3 +16,7 @@ Investigating, supervised by the LTS4 lab for the AI4Science project for CS-433M
 - Showed magnification shifts influence feature quality despite maintained performance
 
 **Skills:** Computer Vision, Foundation Models, Computational Pathology
+
+<div class="links mt-3">
+  <a href="https://github.com/CS-433/ml-project-2-ml-ts-4science" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i> Code</a>
+</div>

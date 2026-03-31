@@ -17,3 +17,7 @@ Applied Deep Reinforcement Learning for optimizing aerial base station positioni
 - Published on [arXiv (2504.03961)](https://arxiv.org/abs/2504.03961)
 
 **Skills:** Deep Reinforcement Learning, Telecommunications, PyTorch
+
+<div class="links mt-3">
+  <a href="https://arxiv.org/abs/2504.03961" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-file-pdf"></i> arXiv</a>
+</div>
