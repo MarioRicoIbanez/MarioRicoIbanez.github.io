@@ -115,8 +115,8 @@
   "publications": [
     {
       "name": "Optimizing UAV Aerial Base Station Flights Using DRL-based Proximal Policy Optimization",
-      "publisher": "arXiv preprint",
-      "releaseDate": "2025-04-01",
+      "publisher": "IEEE International Conference on Communications (ICC)",
+      "releaseDate": "2025-01-01",
       "url": "https://arxiv.org/abs/2504.03961",
       "summary": "Automated reinforcement learning approach for UAV base-station positioning using PPO with continuous actions across diverse mobility scenarios.",
       "authors": "Rico Ibáñez, Mario; Akhtarshenas, Azim; López-Pérez, David; Geraci, Giovanni"
