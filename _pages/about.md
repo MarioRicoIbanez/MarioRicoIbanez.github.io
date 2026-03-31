@@ -24,12 +24,11 @@ latest_posts:
   limit: 3
 ---
 
-I am a CS Master's student at [EPFL](https://www.epfl.ch/) interested in adversarial robustness, reinforcement learning, and large language models.
+CS Master's at [EPFL](https://www.epfl.ch/). I study how to make models robust and how to break them when they're not.
 
-**Currently:**
-- ML Engineer at [Xcert AI](https://www.xcert.ai/) -- semantic search & RAG for aerospace compliance.
+**Now:** ML Engineer at [Xcert AI](https://www.xcert.ai/) -- building RAG systems for aerospace compliance.
 
-**Previously:**
-- RL Research at [Instituto de Telecomunicaciones](https://www.it.pt/) -- UAV positioning with PPO.
-- NLP Research at [CVBLab](https://www.upv.es/) -- emotion analysis with Llama-2.
-- BSc Telecom Engineering, [UPV](https://www.upv.es/).
+**Before:**
+- RL Research at [IT](https://www.it.pt/) -- optimizing UAV networks with PPO.
+- NLP Research at [CVBLab](https://www.upv.es/) -- fine-tuning LLMs for clinical NLP.
+- Telecom Engineering, [UPV](https://www.upv.es/).
