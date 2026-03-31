@@ -1,211 +1,261 @@
 /*******************************************************************************
- * Custom styles - Monospace / Hacky Research Aesthetic
- * Inspired by Anthropic's clean warmth + hacker minimalism
+ * Custom styles
+ * fabiensanglard.net typed-document feel
+ * + paco.me whitespace discipline
+ * + the-monospace-web character-grid aesthetic
  ******************************************************************************/
 
-// Global monospace font override
-body,
-p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-em,
-div,
-li,
-span,
-strong,
-a,
-input,
-textarea,
-button,
-.navbar,
-.navbar-brand,
-.nav-link,
-footer {
-  font-family: "JetBrains Mono", "Courier New", monospace !important;
+// ─────────────────────────────────────────────
+// Typography: everything monospace, no exceptions
+// ─────────────────────────────────────────────
+
+* {
+  font-family: "JetBrains Mono", "DejaVu Sans Mono", "Courier New", monospace !important;
 }
 
-// Body
 body {
   font-weight: 400;
-  font-size: 0.92rem;
-  line-height: 1.8;
-  letter-spacing: -0.01em;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0;
 }
 
-// Headings - clean, spacious
+// ─────────────────────────────────────────────
+// Headings: uppercase + hr divider (fabiensanglard)
+// ─────────────────────────────────────────────
+
 h1,
 .post-title {
-  font-weight: 500 !important;
-  font-size: 2rem !important;
-  letter-spacing: -0.02em;
-  margin-bottom: 1.5rem !important;
+  font-weight: 700 !important;
+  font-size: 1.1rem !important;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 0.3rem !important;
+  padding-bottom: 0.4rem;
+  border-bottom: 2px solid var(--global-text-color);
 }
 
 h2 {
-  font-weight: 500 !important;
-  font-size: 1.25rem !important;
-  margin-top: 2.5rem !important;
-  margin-bottom: 1rem !important;
+  font-weight: 700 !important;
+  font-size: 0.95rem !important;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-top: 3rem !important;
+  margin-bottom: 0.3rem !important;
+  padding-bottom: 0.3rem;
+  border-bottom: 1px solid var(--global-text-color);
 }
 
-// Navbar - transparent, blends with background (Anthropic-style)
+h3 {
+  font-weight: 700 !important;
+  font-size: 0.85rem !important;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+// ─────────────────────────────────────────────
+// Navbar: centered, uppercase, spaced links (fabiensanglard header)
+// ─────────────────────────────────────────────
+
 .navbar {
-  font-size: 0.82rem;
-  text-transform: lowercase;
-  letter-spacing: 0.03em;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
   background-color: transparent !important;
   border-bottom: none !important;
   box-shadow: none !important;
-  padding: 1.2rem 0;
+  padding: 1.5rem 0 0.5rem 0;
 }
 
 .navbar-brand {
-  font-weight: 500;
-  font-size: 0.95rem !important;
+  font-weight: 700;
+  font-size: 0.85rem !important;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
 }
 
 .nav-link {
-  opacity: 0.7;
-  transition: opacity 0.2s ease;
+  opacity: 0.6;
+  transition: opacity 0.15s ease;
+  font-weight: 400;
 
   &:hover {
     opacity: 1;
   }
 }
 
-// Links - subtle blue, Anthropic-style underline on hover
+// ─────────────────────────────────────────────
+// Links: underline always visible (typed document feel)
+// ─────────────────────────────────────────────
+
 a {
-  text-decoration: none;
-  transition: opacity 0.15s ease;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  text-decoration-thickness: 1px;
 
   &:hover {
-    text-decoration: underline;
-    text-underline-offset: 3px;
+    opacity: 0.7;
   }
 }
 
-// Main content area - more breathing room
+.navbar a,
+.nav-link {
+  text-decoration: none !important;
+}
+
+// ─────────────────────────────────────────────
+// Content: generous whitespace (paco.me)
+// ─────────────────────────────────────────────
+
 .about {
   .profile {
-    margin-top: 1rem;
+    margin-top: 0.5rem;
   }
 }
 
 .post-content {
-  padding-top: 0.5rem;
+  padding-top: 0;
+
+  p {
+    margin-bottom: 1.2rem;
+  }
+
+  ul {
+    margin-bottom: 1.5rem;
+  }
+
+  li {
+    margin-bottom: 0.15rem;
+  }
 }
 
-// Profile section
+// ─────────────────────────────────────────────
+// Profile: smaller, subtle
+// ─────────────────────────────────────────────
+
 .profile {
   .address {
-    font-family: "JetBrains Mono", monospace !important;
-    font-size: 0.78rem;
-    opacity: 0.6;
+    font-size: 0.75rem;
+    opacity: 0.5;
   }
 
   .profile-img {
-    max-width: 200px;
+    max-width: 160px;
   }
 }
 
-// Hide subtitle if empty
 .post-description {
-  font-size: 0.88rem;
-  font-weight: 400;
-  opacity: 0.6;
+  font-size: 0.8rem;
+  opacity: 0.5;
+  margin-bottom: 1.5rem;
 }
 
-// Publications - cleaner, more spacious
+// ─────────────────────────────────────────────
+// Publications: clean, typed list
+// ─────────────────────────────────────────────
+
 .publications {
   h2 {
-    font-size: 1.15rem !important;
-    text-transform: lowercase;
+    text-transform: uppercase;
   }
 }
 
 ol.bibliography {
   li {
-    margin-bottom: 1.5rem;
-    padding-bottom: 1.5rem;
+    margin-bottom: 1.2rem;
+    padding-bottom: 1.2rem;
+    border-bottom: 1px dashed var(--global-divider-color);
+
+    &:last-child {
+      border-bottom: none;
+    }
   }
 }
 
-// Buttons in publications - subtle
+// Pub buttons: monospace inline tags
 .btn-outline-primary {
-  font-size: 0.72rem !important;
-  letter-spacing: 0.05em;
+  font-size: 0.65rem !important;
+  letter-spacing: 0.06em;
   text-transform: uppercase;
-  padding: 0.25rem 0.6rem;
-  border-radius: 2px;
+  padding: 0.15rem 0.5rem;
+  border-radius: 0;
+  border-width: 1px;
 }
 
-// Footer - barely there, Anthropic-style
+// ─────────────────────────────────────────────
+// Footer: one line, nearly invisible
+// ─────────────────────────────────────────────
+
 footer {
-  font-size: 0.72rem;
-  opacity: 0.4;
+  font-size: 0.7rem;
+  opacity: 0.3;
   background-color: transparent !important;
   border-top: 1px solid var(--global-divider-color);
-  padding: 1.5rem 0 !important;
+  padding: 1rem 0 !important;
+  margin-top: 3rem;
 
   &.fixed-bottom {
     position: relative !important;
   }
 }
 
-// Social icons - small, inline, subtle
+// ─────────────────────────────────────────────
+// Social: inline, small, nearly invisible
+// ─────────────────────────────────────────────
+
 .social {
-  margin-top: 1.5rem;
+  margin-top: 2rem;
 
   .contact-icons {
-    font-size: 1.3rem !important;
+    font-size: 1.1rem !important;
 
     a {
-      opacity: 0.45;
-      transition: opacity 0.2s ease;
-      margin: 0 0.3rem;
+      opacity: 0.35;
+      transition: opacity 0.15s ease;
+      margin: 0 0.4rem;
+      text-decoration: none !important;
 
       &:hover {
         opacity: 1;
       }
 
       img {
-        width: 1.2rem !important;
-        height: 1.2rem !important;
+        width: 1rem !important;
+        height: 1rem !important;
         margin-bottom: 0 !important;
       }
 
       svg {
-        width: 1.3rem !important;
-        height: 1.3rem !important;
+        width: 1.1rem !important;
+        height: 1.1rem !important;
         margin-bottom: 0 !important;
 
         image {
-          width: 1.3rem !important;
-          height: 1.3rem !important;
+          width: 1.1rem !important;
+          height: 1.1rem !important;
         }
       }
     }
   }
-
-  .contact-note {
-    font-size: 0.75rem;
-    opacity: 0.5;
-  }
 }
 
+// ─────────────────────────────────────────────
 // Selected publications heading
+// ─────────────────────────────────────────────
+
 article h2.bibliography a {
-  font-size: 1.1rem;
-  text-transform: lowercase;
+  font-size: 0.95rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  text-decoration: none !important;
 }
 
-// Scrollbar - minimal
+// ─────────────────────────────────────────────
+// Misc: scrollbar, selection, back-to-top
+// ─────────────────────────────────────────────
+
 ::-webkit-scrollbar {
-  width: 4px;
+  width: 3px;
 }
 
 ::-webkit-scrollbar-track {
@@ -213,12 +263,151 @@ article h2.bibliography a {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: var(--global-divider-color);
-  border-radius: 2px;
+  background: var(--global-text-color);
+  opacity: 0.2;
 }
 
-// Selection color
 ::selection {
-  background: var(--global-theme-color);
-  color: white;
+  background: var(--global-text-color);
+  color: var(--global-bg-color);
+}
+
+// Hide back-to-top button
+#back-to-top {
+  display: none !important;
+}
+
+// ─────────────────────────────────────────────
+// Strong tags: slightly heavier, not bold
+// ─────────────────────────────────────────────
+
+strong {
+  font-weight: 600;
+}
+
+// ─────────────────────────────────────────────
+// Inner pages: consistent styling across all pages
+// ─────────────────────────────────────────────
+
+// Page titles (publications, projects, etc.)
+.post-header {
+  h1 {
+    font-weight: 700 !important;
+    font-size: 1.1rem !important;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    padding-bottom: 0.4rem;
+    border-bottom: 2px solid var(--global-text-color);
+    margin-bottom: 0.5rem !important;
+  }
+
+  p.post-description {
+    font-size: 0.8rem;
+    opacity: 0.5;
+    margin-bottom: 1.5rem;
+  }
+}
+
+// ─────────────────────────────────────────────
+// Publications page
+// ─────────────────────────────────────────────
+
+// Search/filter input
+#search-input,
+input[type="text"] {
+  font-size: 0.8rem !important;
+  padding: 0.4rem 0.6rem;
+  border: 1px solid var(--global-divider-color) !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+
+  &:focus {
+    border-color: var(--global-text-color) !important;
+    box-shadow: none !important;
+    outline: none;
+  }
+}
+
+// Year headers in publications
+.publications {
+  .year {
+    font-weight: 700;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    opacity: 0.4;
+  }
+
+  // Year divider lines
+  .bibliography {
+    .group {
+      border-top: 1px dashed var(--global-divider-color);
+      padding-top: 1rem;
+      margin-top: 1rem;
+    }
+  }
+}
+
+// ─────────────────────────────────────────────
+// Projects page
+// ─────────────────────────────────────────────
+
+.projects {
+  // Category headers
+  h2.category {
+    font-weight: 700 !important;
+    font-size: 0.9rem !important;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    padding-bottom: 0.3rem;
+    border-bottom: 1px solid var(--global-text-color);
+    margin-bottom: 1.5rem !important;
+    text-decoration: none !important;
+
+    a {
+      text-decoration: none !important;
+    }
+  }
+
+  // Project cards: minimal, no heavy shadows
+  .card {
+    border: 1px solid var(--global-divider-color) !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    background: transparent !important;
+    transition: border-color 0.15s ease;
+
+    &:hover {
+      border-color: var(--global-text-color) !important;
+    }
+
+    .card-title {
+      font-weight: 700;
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+
+    .card-text {
+      font-size: 0.78rem;
+      opacity: 0.7;
+    }
+
+    img {
+      border-radius: 0 !important;
+    }
+  }
+}
+
+// ─────────────────────────────────────────────
+// CV page (if enabled)
+// ─────────────────────────────────────────────
+
+.cv {
+  h2 {
+    font-weight: 700 !important;
+    font-size: 0.9rem !important;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+  }
 }
