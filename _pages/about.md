@@ -11,6 +11,7 @@ profile:
   more_info:
 
 selected_papers: true
+selected_projects: true
 social: false
 
 announcements:
