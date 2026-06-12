@@ -108,6 +108,9 @@
 - title: Additional Experience and Awards
   type: time_table
   contents:
+    - year: 2026
+      items:
+        - 'Nova 111 List — Spain (2026): Selected by <a href="https://www.novatalent.com/111-list/the-nova-111-student-list-spain-2026" target="_blank">Nova Talent</a> among the 111 highest-potential students in Spain — ranked #1 in Telecommunications Engineering'
     - year: "2023-2024"
       items:
         - "IAESTE Faculty Delegate: Served a full academic year as a delegate for the IAESTE organization, focusing on securing international job placements for students. Actively engaged with both students and employers, facilitating successful job matches and supporting students throughout their application processes"
