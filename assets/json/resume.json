@@ -104,7 +104,15 @@
       "courses": ["Telecommunication Systems", "Mobile Networks", "Signal Processing", "Network Protocols", "RF Engineering"]
     }
   ],
-  "awards": [],
+  "awards": [
+    {
+      "title": "Nova 111 List — Spain 2026",
+      "date": "2026",
+      "url": "https://www.novatalent.com/111-list/the-nova-111-student-list-spain-2026",
+      "awarder": "Nova Talent",
+      "summary": "Selected among the 111 highest-potential students in Spain — ranked #1 in Telecommunications Engineering"
+    }
+  ],
   "certificates": [],
   "publications": [
     {
