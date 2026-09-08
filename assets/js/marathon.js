@@ -1,0 +1,1 @@
+document.querySelectorAll(".marathon-photo").forEach((e=>{e.addEventListener("click",(()=>{e.setAttribute("aria-pressed",String("true"!==e.getAttribute("aria-pressed")))})),e.addEventListener("keydown",(t=>{"Escape"===t.key&&(e.setAttribute("aria-pressed","false"),e.blur())}))}));
