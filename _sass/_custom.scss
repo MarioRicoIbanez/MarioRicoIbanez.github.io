@@ -157,64 +157,6 @@ a {
   }
 }
 
-.marathon-photo {
-  position: relative;
-  display: block;
-  width: 100%;
-  padding: 0;
-  margin: 0 0 1rem;
-  border: 0;
-  border-radius: 50%;
-  background: transparent;
-  color: var(--global-text-color);
-  cursor: pointer;
-
-  img {
-    display: block;
-    width: 100%;
-    height: auto;
-  }
-
-  &:focus-visible {
-    outline: 2px solid var(--global-text-color);
-    outline-offset: 5px;
-  }
-
-  .marathon-stats {
-    position: absolute;
-    left: 50%;
-    bottom: 16%;
-    transform: translateX(-50%);
-    padding: 0.25rem 0.55rem;
-    border: 1px solid var(--global-divider-color);
-    background: var(--global-bg-color);
-    color: var(--global-text-color);
-    font-size: 0.7rem;
-    line-height: 1.5;
-    white-space: nowrap;
-    opacity: 0;
-    transition: opacity 160ms ease;
-    pointer-events: none;
-  }
-
-  &[aria-pressed="true"] .marathon-stats,
-  &:focus-visible .marathon-stats {
-    opacity: 1;
-  }
-}
-
-@media (hover: hover) and (pointer: fine) {
-  .marathon-photo:hover .marathon-stats {
-    opacity: 1;
-  }
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .marathon-photo .marathon-stats {
-    transition: none;
-  }
-}
-
 .profile {
   .address {
     font-size: 0.75rem;

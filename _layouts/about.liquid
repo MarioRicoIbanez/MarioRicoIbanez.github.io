@@ -27,28 +27,10 @@ layout: default
           {% endif %}
           {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
       30vw, 95vw"{% endcapture %}
-          {% if page.profile.marathon_details %}
-            <button
-              class="marathon-photo"
-              type="button"
-              aria-label="Murcia Marathon: 42.195 kilometres in 3 hours 53 minutes. Toggle photo details."
-              aria-pressed="false"
-            >
-              <img
-                src="{{ profile_image_path | relative_url | bust_file_cache }}"
-                class="{{ profile_image_class }}"
-                alt="Mario at the Murcia Marathon"
-                width="100%"
-                loading="eager"
-              >
-              <span class="marathon-stats" aria-hidden="true">42.195 km · 3h 53′</span>
-            </button>
-          {% else %}
-            {%
-              include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
-              cache_bust=true
-            %}
-          {% endif %}
+          {%
+            include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
+            cache_bust=true
+          %}
         {% endif %}
         {% if page.profile.more_info %}
           <div class="more-info">{{ page.profile.more_info }}</div>
@@ -100,6 +82,3 @@ layout: default
     {% endif %}
   </article>
 </div>
-{% if page.profile.marathon_details %}
-  <script defer src="{{ '/assets/js/marathon.js' | relative_url | bust_file_cache }}"></script>
-{% endif %}
