@@ -472,3 +472,35 @@ header nav ul {
     letter-spacing: 0.06em;
   }
 }
+
+// ─────────────────────────────────────────────
+// Phones: stack profile above timeline, wrap links, opaque menu
+// ─────────────────────────────────────────────
+
+@media (max-width: 575.98px) {
+  // Full-width float otherwise squeezes the timeline grid to zero width
+  .profile {
+    float: none !important;
+    width: 100% !important;
+    max-width: 240px;
+    margin: 0.5rem auto 1.5rem !important;
+  }
+
+  // "github | scholar | x | email" renders as a table; let it wrap
+  .post .clearfix table,
+  .post .clearfix tbody,
+  .post .clearfix tr {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .post .clearfix td {
+    display: inline-block;
+  }
+
+  // Expanded menu would otherwise overlap page content
+  .navbar-collapse {
+    background-color: var(--global-bg-color);
+    padding-bottom: 0.5rem;
+  }
+}
