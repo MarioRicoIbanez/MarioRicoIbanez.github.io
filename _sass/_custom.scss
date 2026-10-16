@@ -706,6 +706,19 @@ header nav ul {
     background: var(--line);
   }
 
+  // Short side branch (e.g. a course during the degree) merges back in
+  .cw-merge {
+    left: var(--x);
+    width: var(--tw);
+    top: calc((var(--top) - var(--e)) * var(--ppy) - 1px);
+    height: 2px;
+    background: var(--line);
+  }
+
+  .cw-rejoin .cw-line::before {
+    display: none;
+  }
+
   .cw-lead {
     top: calc((var(--top) - var(--s)) * var(--ppy));
     border-top: 1px dotted var(--muted);

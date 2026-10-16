@@ -47,6 +47,14 @@ latest_posts:
       <i class="cw-line"></i><i class="cw-dot"></i><i class="cw-lead"></i>
       <div class="cw-label"><strong>Telecom Eng</strong><span><a href="https://www.upv.es/">UPV</a> <em>2020&ndash;24</em></span></div>
     </div>
+    <div class="cw-item cw-lo cw-rejoin" data-s="2024.08" data-e="2024.42" style="--s:2024.08;--e:2024.42">
+      <i class="cw-line"></i><i class="cw-fork"></i><i class="cw-merge"></i><i class="cw-dot"></i><i class="cw-lead"></i>
+      <div class="cw-label"><strong>BSc Thesis</strong><span><a href="https://www.upv.es/">UPV</a> <em>2024</em></span><small>DRL for UAV positioning</small></div>
+    </div>
+    <div class="cw-item cw-lo cw-rejoin" data-s="2022.67" data-e="2023.17" style="--s:2022.67;--e:2023.17">
+      <i class="cw-line"></i><i class="cw-fork"></i><i class="cw-merge"></i><i class="cw-dot"></i><i class="cw-lead"></i>
+      <div class="cw-label"><strong>Samsung Innovation Campus</strong><span>AI program, <a href="https://www.upv.es/">UPV</a> <em>2022&ndash;23</em></span></div>
+    </div>
     <div class="cw-item cw-ro cw-ongoing" data-s="2026.17" data-e="now" style="--s:2026.17;--e:var(--top)">
       <i class="cw-line"></i><i class="cw-dot"></i><i class="cw-lead"></i>
       <div class="cw-label"><strong>Founder</strong><span><a href="https://kinetics-systems.ch/"><img class="cw-logo-mono" src="{{ '/assets/img/kinetics_logo.svg' | relative_url }}" alt="Kinetics"></a> Kinetics <em>2026&ndash;</em></span></div>
