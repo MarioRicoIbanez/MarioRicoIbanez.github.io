@@ -1,59 +1,44 @@
-// Sliding window over the study/work chart: hover (or tap) to move a fixed-width
-// time window; bars overlapping it stay lit, the head line reads out the window.
+// Sliding window over the study/work timeline: hover (or tap) to move a
+// half-year window; activities overlapping it stay lit, the head shows the month.
 (function () {
   var root = document.querySelector(".cw");
   if (!root) return;
 
   var top = parseFloat(root.dataset.top);
+  var bottom = parseFloat(root.dataset.bottom);
   var now = parseFloat(root.dataset.now);
   var win = parseFloat(root.dataset.win);
   var plot = root.querySelector(".cw-plot");
   var band = root.querySelector(".cw-window");
-  var range = root.querySelector(".cw-range");
-  var active = root.querySelector(".cw-active");
-  var bars = Array.prototype.slice.call(root.querySelectorAll(".cw-bar"));
+  var readout = root.querySelector(".cw-when");
+  var months = ["jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov", "dec"];
 
-  var items = bars.map(function (el) {
-    var label = el.querySelector(":scope > .cw-text, :scope > span");
+  var items = Array.prototype.map.call(root.querySelectorAll(".cw-item"), function (el) {
     return {
       el: el,
       s: parseFloat(el.dataset.s),
-      e: el.dataset.e === "now" ? now : parseFloat(el.dataset.e),
-      name: label.querySelector("strong").textContent + " @ " +
-        label.textContent.split("@")[1].trim().split(/\d|·/)[0].trim()
+      e: el.dataset.e === "now" ? now : parseFloat(el.dataset.e)
     };
   });
 
-  function fmt(t) {
-    var y = Math.floor(t + 1e-9);
-    var m = Math.min(12, Math.floor((t - y) * 12 + 1e-9) + 1);
-    return y + "-" + (m < 10 ? "0" : "") + m;
-  }
-
   function place(hi) {
     var lo = hi - win;
-    var h = plot.clientHeight;
-    var ppy = h / (top - plot.dataset.bottom);
+    var ppy = plot.clientHeight / (top - bottom);
     band.style.height = win * ppy + "px";
     band.style.transform = "translateY(" + (top - hi) * ppy + "px)";
-    range.textContent = fmt(lo) + " → " + (hi >= now ? "now" : fmt(hi));
-    var names = [];
+    var mid = hi - win / 2;
+    var y = Math.floor(mid);
+    readout.textContent = hi >= now ? "now" : months[Math.min(11, Math.floor((mid - y) * 12))] + " " + y;
+    root.classList.toggle("is-scrubbing", hi < now);
     items.forEach(function (it) {
-      var on = it.s < hi && it.e > lo;
-      it.el.classList.toggle("is-on", on);
-      if (on) names.push(it.name);
+      it.el.classList.toggle("is-on", it.s < hi && it.e > lo);
     });
-    active.textContent = names.join(" · ");
   }
-
-  plot.dataset.bottom = 2020.5;
 
   function fromPointer(ev) {
     var r = plot.getBoundingClientRect();
-    var ppy = r.height / (top - plot.dataset.bottom);
-    var t = top - (ev.clientY - r.top) / ppy;
-    var hi = Math.max(plot.dataset.bottom - 0 + win, Math.min(now, t + win / 2));
-    place(hi);
+    var t = top - (ev.clientY - r.top) / (r.height / (top - bottom));
+    place(Math.max(bottom + win, Math.min(now, t + win / 2)));
   }
 
   plot.addEventListener("pointermove", fromPointer);
