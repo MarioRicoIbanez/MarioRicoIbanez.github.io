@@ -504,3 +504,171 @@ header nav ul {
     padding-bottom: 0.5rem;
   }
 }
+
+// ─────────────────────────────────────────────
+// Career window: study/work lanes + sliding time window
+// ─────────────────────────────────────────────
+
+.cw {
+  --top: 2026.9;
+  --ppy: 84px;
+  --axis: 5ch;
+  --line: var(--global-text-color);
+  --muted: var(--global-text-color-light);
+  margin: 1rem 0 1.5rem;
+  font-size: 12px;
+  line-height: 1.35;
+
+  .cw-head {
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr);
+    column-gap: 1.5ch;
+    min-height: 1.4em;
+    margin-bottom: 0.6rem;
+    font-size: 11px;
+    color: var(--muted);
+
+    .cw-range {
+      white-space: nowrap;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .cw-active {
+      color: var(--global-text-color);
+    }
+  }
+
+  .cw-lanes,
+  .cw-plot {
+    margin-left: var(--axis);
+  }
+
+  .cw-lanes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1.5ch;
+    margin-bottom: 0.3rem;
+  }
+
+  .cw-lane-title {
+    font-size: 10px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--muted);
+    border-bottom: 1px solid var(--line);
+    padding-bottom: 0.15rem;
+  }
+
+  .cw-plot {
+    position: relative;
+    height: calc((var(--top) - 2020.5) * var(--ppy));
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1.5ch;
+    touch-action: pan-y;
+    cursor: default;
+  }
+
+  .cw-year {
+    position: absolute;
+    left: calc(var(--axis) * -1);
+    right: 0;
+    top: calc((var(--top) - var(--y)) * var(--ppy));
+    border-top: 1px dashed var(--global-divider-color);
+    pointer-events: none;
+
+    span {
+      position: absolute;
+      top: -0.8em;
+      left: 0;
+      font-size: 10px;
+      color: var(--muted);
+      font-variant-numeric: tabular-nums;
+    }
+  }
+
+  .cw-col {
+    position: relative;
+  }
+
+  .cw-bar {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: calc((var(--top) - var(--e)) * var(--ppy));
+    height: calc((var(--e) - var(--s)) * var(--ppy));
+    box-sizing: border-box;
+    border: 1px solid var(--line);
+    background: var(--global-bg-color);
+    padding: 0.25rem 0.5rem;
+    opacity: 0.4;
+    transition: opacity 0.15s ease;
+    overflow: hidden;
+
+    &.is-on {
+      opacity: 1;
+    }
+
+    &.cw-ongoing {
+      border-top-style: dashed;
+    }
+
+    .cw-text {
+      display: block;
+
+      em {
+        display: block;
+        font-style: normal;
+        color: var(--muted);
+        font-size: 11px;
+      }
+
+      small {
+        display: block;
+        color: var(--muted);
+        font-size: 11px;
+      }
+    }
+  }
+
+  .cw-col-study > .cw-bar:first-child {
+    // MSc: the thesis strip sits on top, so the label starts below it
+    padding-top: 1.7rem;
+  }
+
+  // Thesis: inverted strip nested at the top of the MSc bar
+  .cw-bar.cw-thesis {
+    left: -1px;
+    right: -1px;
+    top: -1px;
+    height: auto;
+    min-height: calc((var(--e) - var(--s)) * var(--ppy));
+    padding: 0.1rem 0.5rem;
+    background: var(--line);
+    color: var(--global-bg-color);
+    line-height: 1.25;
+
+    span {
+      font-size: 11px;
+    }
+  }
+
+  .cw-window {
+    position: absolute;
+    left: calc(var(--axis) * -1);
+    right: 0;
+    top: 0;
+    pointer-events: none;
+    border-top: 1px dashed var(--line);
+    border-bottom: 1px dashed var(--line);
+    background: rgba(128, 128, 128, 0.08);
+    transition: transform 0.12s linear;
+    z-index: 2;
+  }
+
+  .cw-note {
+    margin: 0.8rem 0 0 var(--axis);
+    font-size: 11px;
+    color: var(--muted);
+  }
+}
